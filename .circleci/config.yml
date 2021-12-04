@@ -19,7 +19,7 @@ jobs:
       - run: git config --global user.email "maizondroidplay@gmail.com"
       - run: git config --global user.name "Your Name"
       - run: repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
-      - run: git clone https://github.com/maizon/twrp_malta_device_tree device/motorola/malta
+      - run: git clone https://github.com/Maiconnascimento/twrp_malta device/motorola/malta
       - run: repo sync -j9 --force-sync
       - run: source build/envsetup.sh
       - run: export ALLOW_MISSING_DEPENDENCIES=true
